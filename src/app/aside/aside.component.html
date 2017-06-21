@@ -1,0 +1,26 @@
+<aside class="main-sidebar">
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+    <!-- sidebar menu: : style can be found in sidebar.less -->
+    <ul class="sidebar-menu">
+      <li class="treeview" *ngFor="let item of data; let i=index">
+        <a href="#">
+        <i class="fa fa-globe expandOpen"></i> <span>{{item.Title}}</span>  <i class="fa fa-angle-left pull-right expandOpen"></i>
+        </a>
+        <ul class="treeview-menu" style="display: none;">
+          <li *ngFor="let subitem of item.MenuRef"><a [href]="subitem.Href" [target]="subitem.Target">
+              <i class="fa fa-laptop expandOpen"></i>{{subitem.Title}}</a> /li&gt;
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div>
+      <div class="hibox">
+        <h4>每日一句</h4>
+        <p>
+          聰明人是快樂的，自以為聰明的才煩惱。幫助別人減輕三分煩惱，自己就會享受七分快樂。
+        </p>
+      </div>
+    </div>
+  </section>
+</aside>

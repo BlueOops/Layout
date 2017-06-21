@@ -1,0 +1,727 @@
+﻿
+/* ========================================================= */
+/* ======================== 基本設定 ======================= */
+/* ========================================================= */
+
+
+
+section {
+    font-family: Microsoft JhengHei;
+}
+/*======== icon ========*/
+ i {
+    margin: 0 5px;
+}
+
+/*======== 單位選擇 ========*/
+.select_site {
+    margin-top: 20px;
+    line-height: 34px;
+}
+
+    .select_site .title {
+        text-align: center;
+    }
+
+/*======== Login ========*/
+.loginheader .title {
+    margin-top: 20px; /*font-size: 28px;*/
+    text-align: center;
+}
+
+
+/*======== 表單 ========*/
+.table {
+    /*margin: 10px 0;*/
+    text-align: center;
+}
+
+    .table img {
+        height: 100px;
+        max-height: 72px;
+    }
+
+    .table > tbody > tr > td {
+        line-height: 30px !important;
+    }
+
+    .table input.btn {
+        margin: auto;
+    }
+
+    /*.table > tbody > tr > th:nth-child(1) {
+        width: 50px!important;
+        
+    }
+
+    .table > tbody > tr > th:nth-child(3) {
+        width: 50px!important;
+        
+    }
+
+    .table > tbody > tr > th:nth-child(5) {
+        width: 50px!important;
+    }
+
+    .table > tbody > tr > th:nth-child(7) {
+        width: 50px!important;
+    }*/
+    .PagerCss  table > tbody > tr > td {    padding: 10px;}
+    .table .multi_row { height:100px; }
+    .table .signer { line-height:100px;  }
+    .table > tbody > tr > .width50 { max-width:20px; min-width:20px;    }
+    .table > tbody > tr > .width10 { max-width:10px; min-width:10px;    }
+.btn {
+    margin-right: 10px 5px;
+}
+
+.datetodate_style {
+    line-height: 23px;
+}
+
+.base64Textbox {
+    display: none;
+}
+/*==============================================================*/
+/*===========================calendar===========================*/
+/*==============================================================*/
+
+.ajax__calendar_container {
+    width: 180px!important;
+    background-color: #000000;
+    border: solid 1px #666666;
+    -moz-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -khtml-border-top-left-radius: 8px;
+    border-top-left-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -khtml-border-top-right-radius: 8px;
+    border-top-right-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -khtml-border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -khtml-border-bottom-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.ajax__calendar_body {
+    width: 180px;
+    height: 150px;
+    background-color: #000000;
+    border: solid 1px #666666;
+}
+
+.ajax__calendar_header {
+    background-color: #626262;
+    margin-bottom: 8px;
+    -moz-border-radius-topleft: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -khtml-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -khtml-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -khtml-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -khtml-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.ajax__calendar_title {
+    color: #ffffff;
+    padding-top: 3px;
+}
+
+.ajax__calendar_next,
+.ajax__calendar_prev {
+    border: solid 4px #ffffff;
+    background-color: #ffffff;
+    -moz-border-radius-topleft: 18px;
+    -webkit-border-top-left-radius: 18px;
+    -khtml-border-top-left-radius: 18px;
+    border-top-left-radius: 18px;
+    -moz-border-radius-topright: 18px;
+    -webkit-border-top-right-radius: 18px;
+    -khtml-border-top-right-radius: 18px;
+    border-top-right-radius: 18px;
+    -moz-border-radius-bottomleft: 18px;
+    -webkit-border-bottom-left-radius: 18px;
+    -khtml-border-bottom-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    -moz-border-radius-bottomright: 18px;
+    -webkit-border-bottom-right-radius: 18px;
+    -khtml-border-bottom-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.ajax__calendar_hover .ajax__calendar_next,
+.ajax__calendar_hover .ajax__calendar_prev {
+    border: solid 4px #328BC8;
+    background-color: #ffffff;
+    -moz-border-radius-topleft: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -khtml-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -khtml-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -khtml-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -khtml-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.ajax__calendar_dayname {
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 2px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.ajax__calendar_day, .ajax__calendar_month, .ajax__calendar_year {
+    margin: 1px 1px 1px 1px;
+    text-align: center;
+    border: solid 1px #000000;
+    color: #ffffff;
+    background-color: #626262;
+}
+
+.ajax__calendar_hover .ajax__calendar_day,
+.ajax__calendar_hover .ajax__calendar_month,
+.ajax__calendar_hover .ajax__calendar_year {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #328BC8;
+    border: solid 1px #328BC8;
+}
+
+.ajax__calendar_active .ajax__calendar_day,
+.ajax__calendar_active .ajax__calendar_month,
+.ajax__calendar_active .ajax__calendar_year {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #F7B64A;
+}
+
+.ajax__calendar_today .ajax__calendar_day {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #F7B64A;
+}
+
+.ajax__calendar_other,
+.ajax__calendar_hover .ajax__calendar_today {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.ajax__calendar_days {
+    background-color: #000000;
+}
+
+
+
+/*======== sitemappath ========*/
+
+.sitmappath {
+    margin: 20px 0 0 20px;
+}
+
+    .sitmappath span {
+        font-size: 16px;
+    }
+
+/*.modal-backdrop { z-index:1 !important;  }*/
+
+#FileUpload1 {
+}
+
+
+.modal-body {
+    max-height: calc(100vh - 212px);
+    overflow-y: auto;
+}
+
+/*======== Cosmorama ========*/
+.Cosmorama_list {
+    padding: 15px 30px;
+}
+
+.Cos_box {
+    margin: 10px 0;
+}
+
+    .Cos_box .pic {
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        opacity: 0.7;
+        border: 1px solid #ccc;
+        padding: 5px;
+    }
+
+    .Cos_box:hover .pic {
+        opacity: 1;
+    }
+
+    .Cos_box .pic .img {
+        max-height: 98%;
+        margin: auto;
+        display: inline;
+    }
+
+    .Cos_box .txt {
+        padding: 10px;
+    }
+
+    .Cos_box .btn {
+        padding: 2px 4px;
+    }
+
+
+/* 動畫效果 */
+.animate3s_all {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.animate4s_all {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.animate5s_all {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.animate7s_all {
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+
+
+.animate3s_delay {
+    -webkit-transition-delay: 300ms;
+    -moz-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    -ms-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+.animate4s_delay {
+    -webkit-transition-delay: 400ms;
+    -moz-transition-delay: 400ms;
+    -o-transition-delay: 400ms;
+    -ms-transition-delay: 400ms;
+    transition-delay: 400ms;
+}
+
+
+.col-sm-3.sidebar { 
+ background:#000;    
+}
+
+/*===============row 裡面的col等高 ===============*/
+.e_height { display:flex; }
+
+
+/*===============選單管理的選單樣式 ===============*/
+.sidebar .fa-pencil-square-o {
+color:#337ab7;
+}
+.sidebar .panel-group {
+  border-right:1px solid #000;
+    /*border-radius:3px;
+    -moz-box-shadow:4px 9px 7px rgba(50%,48%,49%,0.3);
+-webkit-box-shadow:4px 9px 7px rgba(50%,48%,49%,0.3);
+box-shadow:4px 9px 7px rgba(50%,48%,49%,0.3);*/
+}
+.panel-group .panel-title a:hover {
+    text-decoration:none;   
+    color:#328BC8;
+}
+.panel-group .panel-title a {
+    text-decoration:none;   
+   
+}
+.panel-group .panel-title a:active {
+    text-decoration:none;   
+    color:#328BC8;
+}
+
+.panel-group .panel-heading {
+border-radius : 0;
+}
+.panel-group .panel-title>a  {
+    color: #328BC8;
+}
+.panel-group .panel-title .collapsed {
+    color: #333;
+}
+.panel-group .panel-title .collapsed .fa{
+ -webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	 -ms-transform: rotate(-90deg);
+	  -o-transform: rotate(-90deg);
+		 transform: rotate(-90deg);}
+
+.panel-group .panel-heading .collapse .panel-body .panel-heading{
+    border-left:1px solid transparent;
+}
+.panel-group .panel-heading .in .panel-body .panel-heading{
+    border-left:1px solid #328BC8;
+}
+
+.panel-body .nav > li > a:hover, .nav > li > a:focus {
+    background-color:transparent;
+}
+.panel-body .nav > li > a {
+    color:#000;
+    padding: 7px;
+}
+.panel-body .nav > li > a:hover {
+    color:#337ab7;
+   
+}
+
+
+
+/* 動畫效果 */
+.animate3s_all {
+ -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	  -o-transition: all 0.3s ease-in-out;
+		 transition: all 0.3s ease-in-out;}
+.animate4s_all {
+ -webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	  -o-transition: all 0.4s ease-in-out;
+		 transition: all 0.4s ease-in-out;}
+.animate5s_all {
+ -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	  -o-transition: all 0.5s ease-in-out;
+		 transition: all 0.5s ease-in-out;}
+.animate7s_all {
+ -webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	  -o-transition: all 0.7s ease-in-out;
+		 transition: all 0.7s ease-in-out;}
+		 
+
+
+.animate3s_delay{
+  -webkit-transition-delay: 300ms;
+  -moz-transition-delay: 300ms;
+  -o-transition-delay: 300ms;
+  -ms-transition-delay: 300ms;
+  transition-delay: 300ms;}
+.animate4s_delay{
+  -webkit-transition-delay: 400ms;
+  -moz-transition-delay: 400ms;
+  -o-transition-delay: 400ms;
+  -ms-transition-delay: 400ms;
+  transition-delay: 400ms;}
+
+
+
+.gv_tb  img{ height: 20px;
+}
+
+.Access_underline {
+    padding-bottom:10px;
+    border-bottom : solid 1px #FE7451 ;
+}
+
+
+.Cos_box h5 {
+min-height:15px;
+}
+
+/*==============================================================*/
+/*=========================IAMS_ISMS_C==========================*/
+/*=========================Asset檢視頁面============================*/
+.table-striped > tbody > tr:nth-of-type(1) {background-color: #c50404;    color: #FFF;}
+.table-responsive { /*font-size:8px;*/}
+.Assettalbe .title { text-align:center;font-weight: bold; position: relative; }
+.Assettalbe .Grade {position: absolute;    top: 0;    left: 0;font-size: 16px;    font-weight: 100;}
+.Assettalbe .Number { text-align: right;
+  
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    right: -10px; }
+.Sign_box { margin:15px; }
+.print .btn_top {    margin: 15px;  }
+.print .table {
+    /*margin: 10px 0;*/
+    text-align: center;
+}
+
+   .print .table img {
+        height: 100px;
+        max-height: 72px;
+    }
+    .print .table .gv_head {
+        background: #04148a;
+    color: #FFF;
+    }
+   .print .table > tbody > tr > td {
+        line-height: 25px !important;
+    }
+
+   .print .table input.btn {
+        margin: auto;
+    }
+    .print .table > tbody > tr > th {
+        min-width: 115px;
+        text-align: center;
+    }
+   .print .table > tbody > tr > th:nth-child(1) {
+        min-width: 33px;
+         max-width: 33px;
+    }
+
+   .print .table > tbody > tr > th:nth-child(3) {
+        min-width: 150px;
+    }
+    .print .table > tbody > tr > th:nth-child(4) {
+        min-width: 150px;
+    }
+
+   .print .table > tbody > tr > th:nth-child(5) {
+        min-width:80px;
+    }
+    .print .table > tbody > tr > th:nth-child(6) {
+        min-width: 100px;
+    }
+
+   .print .table > tbody > tr > th:nth-child(7) {
+          min-width: 100px;
+    }
+   .print .table > tbody > tr > th:nth-child(8) {
+          min-width: 100px;
+    }
+   .print .table > tbody > tr > th:nth-child(9) {
+          min-width: 70px;
+    }
+   .print .table > tbody > tr > th:nth-child(10) {
+        min-width: 249px;
+    }
+   .print .table > tbody > tr > th:nth-child(11) {
+        min-width: 5px;
+        max-width:10px;
+        padding: 7px;
+    }
+   .print .table > tbody > tr > th:nth-child(12) {
+         min-width: 5px;
+          max-width:10px;
+          padding: 7px;
+    }
+   .print .table > tbody > tr > th:nth-child(13) {
+        min-width: 5px;
+         max-width:10px;
+         padding: 7px;
+    }
+   .print .table > tbody > tr > th:nth-child(14) {
+         min-width: 5px;
+    }
+
+   .print .table .multi_row { height:100px; }
+   .print .table .signer { line-height:100px;  }
+
+
+.uploadfiles lable {color: #337ab7;}
+
+
+/*======== Risk表單 ========*/
+.Risk .table {
+    /*margin: 10px 0;*/
+    text-align: center;
+}
+
+    .Risk .table img {
+        height: 100px;
+        max-height: 72px;
+    }
+    .Risk .table > tbody > tr > th {
+        text-align:center;
+    }
+    .Risk .table > tbody > tr > td {
+        line-height: 25px !important;
+    }
+
+    .Risk .table input.btn {
+        margin: auto;
+    }
+
+    .Risk .table > tbody > tr > th:nth-child(1) {
+        min-width: 96px;
+        
+    }
+
+    .Risk .table > tbody > tr > th:nth-child(3) {
+       min-width: 90px;
+        
+    }
+
+    .Risk .table > tbody > tr > th:nth-child(5) {
+       min-width: 180px;
+    }
+
+    .Risk .table > tbody > tr > th:nth-child(7) {
+       min-width: 180px;
+    }
+
+    .Risk .table .multi_row { height:100px; }
+    .Risk .table .signer { line-height:100px;  }
+    /*==============================================================*/
+/*=========================IAMS_ISMS_C==========================*/
+/*=========================Risk檢視頁面============================*/
+
+.Assettalbe .title { text-align:center;font-weight: bold; }
+.Assettalbe .date {  text-align: right;  margin: 15px; }
+
+.Riskprint .btn_top {    margin: 15px;  }
+.Riskprint .table {
+    /*margin: 10px 0;*/
+    text-align: center;
+}
+
+   .Riskprint .table img {
+        height: 100px;
+        max-height: 72px;
+    }
+    .Riskprint .table .gv_head {
+        background: #2877bb;
+    color: #FFF;
+    }
+   .Riskprint .table > tbody > tr > td {
+        line-height: 25px !important;
+    }
+
+   .Riskprint .table input.btn {
+        margin: auto;
+    }
+    .Riskprint .table > tbody > tr > th {
+        min-width: 150px;
+        text-align: center;
+    }
+   .Riskprint .table > tbody > tr > th:nth-child(1) {
+        min-width:150px;
+         max-width:150px;
+    }
+
+   .Riskprint .table > tbody > tr > th:nth-child(3) {
+        min-width: 168px;
+    }
+    .Riskprint .table > tbody > tr > th:nth-child(4) {
+        min-width: 90px;
+    }
+
+   .Riskprint .table > tbody > tr > th:nth-child(5) {
+        min-width: 50px;
+    } .Riskprint .table > tbody > tr > th:nth-child(6) {
+        min-width: 300px;
+    }
+
+   .Riskprint .table > tbody > tr > th:nth-child(7) {
+         min-width: 50px;
+    }
+    .Riskprint .table > tbody > tr > th:nth-child(8) {
+        min-width: 300px;
+    }
+   .Riskprint .table > tbody > tr > th:nth-child(9) {
+        min-width: 50px;
+    }
+   .Riskprint .table > tbody > tr > th:nth-child(10) {
+         min-width: 50px;
+    }
+   
+
+   .Riskprint .table .multi_row { height:100px; }
+   .Riskprint .table .signer { line-height:100px;  }
+
+   /*table 的 icon*/
+table .fa {
+    font-size: 17px;
+}
+table .fa-clock-o {
+    color: #8c8c8c;
+}
+table .fa-check {
+    color:#079439;
+}
+
+   /*==============================================================*/
+/*=========================IAMS_ISMS_C==========================*/
+/*=========================Sys_USer_Mana============================*/
+
+
+.Sys_User_table > tbody > tr > th:nth-child(1) {
+        min-width: 50px;
+         max-width: 50px;
+    }
+
+   .Sys_User_table  > tbody > tr > th:nth-child(3) {
+      min-width: 90px;
+    }
+    .Sys_User_table  > tbody > tr > th:nth-child(4) {
+       min-width: 107px;
+    }
+
+   .Sys_User_table  > tbody > tr > th:nth-child(5) {
+        min-width: 156px;
+    } .Sys_User_table  > tbody > tr > th:nth-child(6) {
+       min-width: 100px;
+    }
+
+   .Sys_User_table  > tbody > tr > th:nth-child(7) {
+         min-width: 100px;
+    }
+    .Sys_User_table  > tbody > tr > th:nth-child(8) {
+       min-width: 100px;
+    }
+   .Sys_User_table  > tbody > tr > th:nth-child(9) {
+       min-width: 100px;
+    }
+   .Sys_User_table  > tbody > tr > th:nth-child(10) {
+        min-width: 100px;
+    }
+
+.btn_top {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<link href="/assets/styles/login.css" rel="stylesheet" />
+<div class="form-horizontal">
+  <br />
+  <div class="container">
+    <div class="row login-box">
+      <div class="col-sm-5 col-centered">
+        <div class="login-panel panel panel-default">
+          <div class="login-logo text-center">
+            <br />
+            <h2 class="loginheader">Web Test</h2>
+            <div id="mask"></div>
+          </div>
+          <div class="panel-body" >
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input id="Tuid" type="text" placeholder="請輸入帳號" runat="server" class="form-control" MaxLength="50">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input id="Tpwd" type="password" placeholder="請輸入密碼" runat="server" class="form-control" MaxLength="50">
+              </div>
+            </div>
+            <div class="text text-center">
+              (注意:請使用開機的帳號密碼，若錯誤多次將被鎖碼)
+            </div>
+            <div id="submit-box">
+              <input type="submit" class="btn" value="Login" [routerLink]="[ '/layout']">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

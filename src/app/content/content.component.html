@@ -1,0 +1,107 @@
+<!-- Content Wrapper. Contains page content -->
+
+  <section class="content-header">
+    <h1>
+      計畫預算清單
+    </h1>
+  </section>
+  <section class="content">
+    <!-- Small boxes (Stat box) -->
+    <div class="row">
+      <div class="col-xs-12">
+
+        <button type="button" class="btn btn-blue" onclick="window.location.href='login.html'">查詢&nbsp;Search <i class="fa fa-search" aria-hidden="true"></i></button>
+        <div class="table-responsive Rpt_Manabox">
+          <div>
+            <table class="table table-bordered table-hover" cellspacing="0" rules="all" border="1" id="Content_Body_GV_Mana" style="width:100%;border-collapse:collapse;">
+              <tbody>
+                <tr class="text-center" style="font-weight:normal;">
+                  <th scope="col">計畫代碼</th>
+                  <th scope="col">計畫名稱</th>
+                  <th scope="col">履約開始日</th>
+                  <th scope="col">履約結束日</th>
+                  <th scope="col">計畫主持人</th>
+                  <th scope="col">人事費</th>
+                  <th scope="col">業務外支出</th>
+                  <th scope="col">業務費</th>
+                  <th scope="col">資本門</th>
+                  <th scope="col">管理費</th>
+                  <th scope="col">國外旅費</th>
+                </tr>
+                <tr align="left">
+                  <td>09999P9102</td>
+                  <td style="background-color:#F9F9F9;width:300px;">09999P9102專利權(非政府捐補助)</td>
+                  <td>2013/1/1</td>
+                  <td style="background-color:#F9F9F9;">2099/12/31</td>
+                  <td>陳峰志</td>
+                  <td align="right" style="background-color:#F9F9F9;">0</td>
+                  <td align="right">0</td>
+                  <td align="right" style="background-color:#F9F9F9;">0</td>
+                  <td align="right">0</td>
+                  <td align="right" style="background-color:#F9F9F9;">0</td>
+                  <td align="right">0</td>
+                </tr>
+                <tr align="left">
+                  <td>09098C3301</td>
+                  <td style="background-color:#F9F9F9;width:300px;">精微複合光學元件設計與量產製程之研發-子計畫二：複合光學元件超精密模仁加工技術開發(II)</td>
+                  <td>2009/8/1</td>
+                  <td style="background-color:#F9F9F9;">2010/7/31</td>
+                  <td>許巍耀</td>
+                  <td align="right" style="background-color:#F9F9F9;">0</td>
+                  <td align="right">0</td>
+                  <td align="right" style="background-color:#F9F9F9;">403,052</td>
+                  <td align="right">0</td>
+                  <td align="right" style="background-color:#F9F9F9;">43,000</td>
+                  <td align="right">40,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+    </div>
+    <div class="modal fade" id="EXL" style="background-color: rgba(0,0,0,0.8);">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" onclick="ShowEXL('fade')"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            <h3 class="modal-title">查詢</h3>
+          </div>
+          <div class="modal-body">
+            <div class="panel panel-default">
+
+              <div class="panel-body">
+
+                <div class="form-group">
+                  <div class="col-xs-12">
+                    <label>計畫編號</label>
+                    <input name="ctl00$Content_Body$TB1" type="text" id="Content_Body_TB1" class="form-control">
+                  </div>
+                  <div class="col-xs-12">
+                    <label>計畫名稱</label>
+                    <input name="ctl00$Content_Body$TB2" type="text" id="Content_Body_TB2" class="form-control">
+                  </div>
+                  <div class="col-xs-12">
+                    <label>計畫主持人</label>
+                    <input name="ctl00$Content_Body$TB3" type="text" id="Content_Body_TB3" class="form-control">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <div style="text-align: center">
+              <input type="submit" name="ctl00$Content_Body$BQ" value="查詢" id="Content_Body_BQ" class="btn btn-blue">
+            </div>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+  </section>
+<!-- /.content-wrapper -->

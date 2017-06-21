@@ -1,0 +1,111 @@
+.login-box {
+  border-radius: 9px;
+  padding: 5px;
+  font-family: "微軟正黑體";
+  margin: 8% auto;
+}
+
+.login-box .text {
+  margin-bottom: 15px;
+}
+
+
+/*.loginheader {
+            margin: auto;
+            width: 90%;
+            font-size: 28px;
+            text-align: center;
+        }*/
+
+.groupcenter {
+  text-align: center;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+#Test_Btn {
+  margin-top: 15px;
+}
+
+.control-label {
+  line-height: 34px;
+}
+
+.dropmenuScroll {
+  height: 300px;
+  max-height: 300px;
+  overflow-y: scroll;
+  position: absolute;
+}
+
+
+/*login box style*/
+
+.panel {
+  border-width: 0;
+  box-shadow: 0 0 10px 4px RGBA(204, 204, 204, .5);
+}
+
+#mask {
+  position: absolute;
+  background: url('/assets/images/purple.jpg');
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-size: 105%;
+}
+
+.login-panel .login-logo {
+  position: relative;
+  background: #875497;
+  color: #fff;
+  background-size: 80%;
+  height: 105px;
+}
+
+.login-panel .login-logo h2 {
+  position: absolute;
+  z-index: 9;
+  left: 50%;
+  top: 30%;
+  margin-left: -118px;
+}
+
+.login-panel .panel-body input[type="text"],
+.login-panel .panel-body input[type="password"] {
+  border-width: 0;
+  border-radius: 0;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 17px;
+}
+
+.login-panel .panel-body input[type="submit"] {
+  box-shadow: 0 0 10px 3px RGBA(204, 204, 204, .5);
+  border-radius: 1px;
+  background-color: #875497;
+  text-transform: uppercase;
+  width: 100px;
+  color: #fff;
+  padding: 12px 18px;
+  transition: all .4s;
+}
+
+.login-panel .panel-body input[type="submit"]:hover {
+  background-color: #B598AC;
+}
+
+#submit-box {
+  text-align: center;
+}
+
+.text-center {
+  color: #999;
+  margin-bottom: 20px;
+}
